@@ -2,12 +2,14 @@ package cat.itacademy.barcelonactiva.TrujilloPortillo.Luis.s04.t02.n01.model.Ent
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Entity
 @Table(name = "Frutas")
 public class Fruta {
